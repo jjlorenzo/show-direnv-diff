@@ -1,0 +1,17 @@
+[package]
+authors = ["jjlorenzo <jjlorenzo@gmail.com>"]
+description = "show-direnv-diff"
+documentation = "https://docs.rs/exec/show-direnv-diff"
+edition = "2018"
+license = "MIT"
+name = "show-direnv-diff"
+readme = "README.md"
+repository = "https://github.com/jjlorenzo/show-direnv-diff"
+version = "0.1.0"
+
+[dependencies]
+base64 = "0.11.0"
+colored = "1.9.2"
+flate2 = "1.0.13"
+json = "0.12.1"
+structopt = "0.3.9"
